@@ -2,6 +2,7 @@ import {
   CreateAppFunction,
   createAppAPI,
   createRenderer,
+  h,
 } from "../runtime-core";
 import { nodeOps } from "./nodeOps";
 
@@ -19,3 +20,5 @@ export const createApp = ((...args) => {
 
   return app;
 }) as CreateAppFunction<Element>;
+
+export { h };

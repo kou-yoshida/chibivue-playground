@@ -1,1 +1,1 @@
-export { createApp } from "./runtime-dom";
+export { createApp, h } from "./runtime-dom";
